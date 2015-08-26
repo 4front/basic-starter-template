@@ -1,0 +1,35 @@
+{
+  "name": "basic-starter-template",
+  "version": "1.0.0",
+  "description": "Basic 4front starter template",
+  "private": "true",
+  "scripts": {
+    "watch": "gulp watch",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4front/basic-starter-template.git"
+  },
+  "keywords": [
+    "4front",
+    "html",
+    "starter"
+  ],
+  "author": "David Von Lehman <https://github.com/dvonlehman>",
+  "_virtualApp": {
+    "autoReload": true,
+    "router": [
+      {
+        "module": "webpage"
+      }
+    ]
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.2.4",
+    "request": "^2.60.0"
+  }
+}
